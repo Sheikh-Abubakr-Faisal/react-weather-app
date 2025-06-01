@@ -19,11 +19,6 @@ A modern **Weather Application** built with **ReactJS** that provides live weath
 
 ![Screenshot](public/Screenshot.png)
 
-## 🎯 Live Demo
-
-You can check out the live version of this Weather Application here:  
-[https://sheikh-abubakr-faisal.github.io/react-weather-app/](https://sheikh-abubakr-faisal.github.io/react-weather-app/)
-
 ## 👨‍💻 Author
 
 **Sheikh Abubakr Faisal**  
