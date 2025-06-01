@@ -1,0 +1,106 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+  background: url('https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+.myapp{
+  background: rgba(0, 0, 0, 0.7);
+  margin-left: 30%;
+  height: 500px;
+  width: 40%;
+  border-radius: 10px;
+}
+.weather-header {
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.weather-header input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.weather-header button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.weather-info {
+  font-size: 18px;
+}
+
+.weather-condition {
+  font-size: 30px;
+}
+
+.details {
+  margin-top: 20px;
+}
+
+.time {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .myapp {
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .weather-header input {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  .weather-header button {
+    width: 25%;
+    padding: 10px 0;
+  }
+
+  .weather-condition {
+    font-size: 24px;
+  }
+
+  .weather-info {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .weather-header input {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .weather-header button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .details div {
+    font-size: 14px;
+  }
+
+  .time {
+    font-size: 12px;
+  }
+}
